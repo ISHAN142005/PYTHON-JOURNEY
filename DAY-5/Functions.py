@@ -21,3 +21,6 @@ print(f"The average of {n1},{n2},{n3} is:{avg(n1,n2,n3)}")      #avg(n1,n2,n3)--
 
 a1=avg(2,3,4)
 a2=avg(4,7,9)
+
+print(a1)       #we used return in our function but if we had used print d then it would give output as none
+print(a2)       #we used return in our function but if we had used print d then it would give output as none
