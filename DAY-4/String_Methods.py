@@ -10,7 +10,7 @@ print(
 )
 
 a = "brand new"
-print(a.lower(), a)  # -->  This will lowercase all
+print(a.lower(), a)  # -->  This will lowercase all and a is for seeing that there is no change in original
 print(a.upper(), a)  # -->  This will uppercase all
 print(a.capitalize(), a)  # -->  This will capitalize the first letter of string
 print(a.title(), a)  # -->  This will capitalize the first letter of all word of string
