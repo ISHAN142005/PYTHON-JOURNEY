@@ -12,7 +12,7 @@ print(sum(3, 6))  # Here 3 & 6 are arguments
 
 def product(a, b, mult=1):  # mult is default here
     x = a * b * mult
-
+    return x
 
 print(product(2, 5))
 print(product(2, 5, 9))  # We can also override the default
