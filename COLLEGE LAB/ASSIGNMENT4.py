@@ -8,6 +8,7 @@ def check_prime(n):
 
     return True
 
+
 def check_armstrong(n):
     original = n
     digits = len(str(n))
@@ -16,9 +17,10 @@ def check_armstrong(n):
     while n > 0:
         digit = n % 10
         total = total + digit ** digits
-        n = n
+        n = n // 10
 
     return total == original
+
 
 num = int(input("Enter a number: "))
 
